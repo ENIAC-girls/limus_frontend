@@ -1,0 +1,34 @@
+name: limus
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  camera: ^0.10.5+2
+  path: ^1.8.0
+  path_provider: ^2.0.15
+  image_gallery_saver: ^2.0.1
+  gallery_saver: ^2.3.2
+  permission_handler: ^10.2.0
+  image_picker: ^0.8.7+5
+  image: ^3.0.3
+  intl: ^0.17.0
+  flutter_keyboard_visibility: ^5.0.0
+  dio: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/limus_icon.png
